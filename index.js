@@ -5,6 +5,7 @@ require('fs').readdirSync(__dirname + '/modules/').forEach(async function (file)
     exports[name] = await require('./modules/' + file);
   }
 });
+//chrome://inspect from your Chrome to open chrome devices inspector
 
 
 /*
