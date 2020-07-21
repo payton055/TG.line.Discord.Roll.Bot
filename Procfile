@@ -1,1 +1,1 @@
-web: node --gc_interval=100 index.js
+worker: node index.js
